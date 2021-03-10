@@ -1,0 +1,133 @@
+html,
+body {
+
+    margin: 0:
+
+}
+
+body{
+/*    background-image: url(https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg)*/
+
+}
+
+
+
+nav{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:700;
+}
+
+#resume{
+   font-family: 'Roboto Mono', monospace;
+    font-weight:700;
+}
+
+#port{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+#logo{
+    width: 25%;
+    height: 25%;
+}
+
+#about{
+  font-size: 30px;
+  height: 100%;
+  font-weight: 300;
+}
+
+
+.about_title{
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+
+}
+
+#photo{
+    width: 35%;
+    height: 30%;
+}
+
+#foot_contact{
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+.proc {
+ overflow-y: scroll;
+
+}
+
+
+.big_image{
+   max-width: 60%;
+   position: relative;
+
+}
+
+.img_overlay{
+    position: absolute;
+
+
+}
+
+
+
+.detail{
+    font-size: 20px;
+
+}
+
+.crop{
+  object-fit:cover;
+  overflow:hidden;
+}
+
+
+.hover_cont {
+  position: relative;
+  background-color: black;
+
+}
+
+.mouseover_img {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.mid_mouseover {
+  transition: .5s ease;
+  opacity: 0;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hover_cont:hover .mouseover_img {
+  opacity: 0.5;
+}
+
+.hover_cont:hover .mid_mouseover {
+  opacity: 1;
+}
+
+.hovertext {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.hovertext:hover{
+  text-decoration: none;
+  color: white;
+}
