@@ -27,32 +27,27 @@ nav{
     font-weight: 700;
 }
 
-#logo{
-    width: 25%;
-    height: 25%;
-}
-
-#about{
-  font-size: 30px;
-  height: 100%;
-  font-weight: 300;
-}
-
-
-.about_title{
-    font-size: 50px;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 700;
-
-}
-
-#photo{
-    width: 35%;
-    height: 30%;
+.logo{
+  height: 50%;
+  filter: drop-shadow(.5rem .5rem 1rem white);
+  top: 16%;
+  right:25%;
 }
 
 #foot_contact{
   font-family: 'Roboto Mono', monospace;
+}
+
+.side_content{
+  max-width:25%;
+  height: 80vh;
+  margin-bottom: 2rem;
+}
+
+#pwa_port_card{
+  max-width: 50%;
+  height: 80vh;
+  margin-bottom: 2rem;
 }
 
 
@@ -77,21 +72,55 @@ nav{
 }
 
 
+#left_content{
+  margin-right: 1vw;
+
+}
+
+#right_content{
+  margin-left: 1vw;
+}
+
+
 
 .detail{
     font-size: 20px;
 
 }
 
+.crop_two{
+  object-fit:cover;
+  overflow:hidden;
+  height: 83vh;
+  width: 100%;
+  /* width: 100%; */
+}
+
 .crop{
   object-fit:cover;
   overflow:hidden;
+  height: 41vh;
+  width: 100%;
+
 }
+
+.port_items_titles{
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 1);
+
+}
+
 
 
 .hover_cont {
   position: relative;
   background-color: black;
+
 
 }
 
@@ -130,4 +159,77 @@ nav{
 .hovertext:hover{
   text-decoration: none;
   color: white;
+}
+
+
+
+
+@media screen and (max-width: 999px) {
+
+  #bootstrap_image{
+    margin-top: 6rem;
+  }
+
+  #left_content{
+
+    margin-right: 0;
+
+  }
+
+  #right_content{
+
+    margin-left: 0;
+
+  }
+
+  .side_content{
+    max-width:90vw;
+  }
+
+  #pwa_port_card{
+    max-width: 90vw;
+    height: 41vh;
+
+  }
+
+  .crop_two{
+    object-fit:cover;
+    overflow:hidden;
+    height: 41vh;
+    width: 100%;
+    /* width: 100%; */
+  }
+
+
+  .port_images{
+    margin: 1rem;
+
+  }
+
+
+  .port_items_titles{
+    top:1vh;
+    left: 2vh;
+    font-size: 3rem;
+  }
+
+  #bootstrap_title{
+    top:6vh;
+    left: 2vh;
+  }
+
+  #email{
+    margin-top: 10vh;
+  }
+
+
+  /* #pwa_port_card{
+    object-fit:cover;
+    overflow:hidden;
+    max-height: 30%;
+    max-width: 100%;
+
+  } */
+
+
 }
