@@ -32,19 +32,21 @@ nav{
 }
 
 .logo{
-  height: 50%;
+  width: 30vw;
+  
 
-  filter: drop-shadow(.2rem .2rem .2rem white);
-  background: rgba(255, 255, 255, .1);
-  top: 16%;
-  right:25%;
+  /* filter: drop-shadow(.2rem .2rem .2rem white);
+  background: rgba(255, 255, 255, .1); */
+  /* top: 16%;
+  right:25%; */
 }
 
 .job_titles{
-  top: 70%;
-  left:2.7%;
-  background: rgba(0, 0, 0, .8);
-  font-size: 3vw;
+  /* top: 70%;
+  left:2.7%; */
+  /* background: rgba(0, 0, 0, .8); */
+  font-size: 2vw;
+  margin-bottom: .2%;
 }
 
 #foot_contact{
