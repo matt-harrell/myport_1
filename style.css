@@ -27,11 +27,24 @@ nav{
     font-weight: 700;
 }
 
+.code_background{
+  filter: brightness(50%);
+}
+
 .logo{
   height: 50%;
-  filter: drop-shadow(.5rem .5rem 1rem white);
+
+  filter: drop-shadow(.2rem .2rem .2rem white);
+  background: rgba(255, 255, 255, .1);
   top: 16%;
   right:25%;
+}
+
+.job_titles{
+  top: 70%;
+  left:2.7%;
+  background: rgba(0, 0, 0, .8);
+  font-size: 3vw;
 }
 
 #foot_contact{
@@ -40,13 +53,13 @@ nav{
 
 .side_content{
   max-width:25%;
-  height: 80vh;
+
   margin-bottom: 2rem;
 }
 
 #pwa_port_card{
   max-width: 50%;
-  height: 80vh;
+
   margin-bottom: 2rem;
 }
 
@@ -117,62 +130,42 @@ nav{
 
 
 
-.hover_cont {
-  position: relative;
-  background-color: black;
+/* .port_items_titles:hover{
+  border: 5px solid red;
+
+} */
 
 
-}
-
-.mouseover_img {
-  opacity: 1;
+.port_images:hover{
+  /* opacity: 0.5; */
+  filter: brightness(50%);
   transition: .5s ease;
-  backface-visibility: hidden;
-}
 
-.mid_mouseover {
-  transition: .5s ease;
-  opacity: 0;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.hover_cont:hover .mouseover_img {
-  opacity: 0.5;
-}
-
-.hover_cont:hover .mid_mouseover {
-  opacity: 1;
-}
-
-.hovertext {
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-.hovertext:hover{
-  text-decoration: none;
-  color: white;
 }
 
 
+
+#contact-intro{
+  width:60%;
+  margin-left: 5%;
+  font-size:3vw;
+}
+
+#contact_photo{
+  width: 40%;
+}
 
 
 @media screen and (max-width: 999px) {
 
-  #bootstrap_image{
+  /* #bootstrap_image{
     margin-top: 6rem;
-  }
+  } */
 
   #left_content{
-
+    margin-top: 5%;
     margin-right: 0;
+    width: 100%;
 
   }
 
@@ -208,20 +201,31 @@ nav{
 
 
   .port_items_titles{
-    top:1vh;
-    left: 2vh;
     font-size: 3rem;
   }
 
-  #bootstrap_title{
-    top:6vh;
-    left: 2vh;
+  .big_image {
+    max-width: 100%;
   }
 
-  #email{
-    margin-top: 10vh;
+  .proc {
+   overflow: auto;
+
   }
 
+  #contact-intro{
+    margin-top: 5%;
+    margin-left: 0%;
+    width: 100%;
+    align-self: center;
+    font-size: 5vw;
+  }
+
+
+
+  #contact_photo{
+    width: 100%;
+  }
 
   /* #pwa_port_card{
     object-fit:cover;

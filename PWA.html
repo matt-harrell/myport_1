@@ -14,221 +14,386 @@
 </head>
 <body class="bg-light" style="height: 100%;">
 
-  <div class="container-fluid mt-0 pt-0 mb-2 sticky-top main p-0"  id="">
-
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light m-0 p-0">
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav w-100 d-flex justify-content-between">
-          <li class="nav-item dropdown flex-fill ">
-              <div class="btn-group d-flex flex-fill">
-                <a type="button" class="btn btn-dark text-center flex-fill text-white-50" id="port" href="portfolio.html">Portfolio</a>
-                <button type="button" class="btn btn-dark text-center dropdown-toggle dropdown-toggle-split text-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="sr-only">Toggle Dropdown</span>
-                </button>
-                <div class="dropdown-menu w-100 text-center">
-                  <a class="dropdown-item" href="PWA.html">PWA</a>
-                  <a class="dropdown-item" href="bootstrap.html">BootStrap</a>
-                  <a class="dropdown-item" href="javascript.html">Interactive Animation</a>
-                  <a class="dropdown-item" href="textlayout.html">Text Layout</a>
-                  <a class="dropdown-item" href="chromeext.html">Chrome Extentsion</a>
-                </div>
-              </div>
-
-          </li>
-          <li class="nav-item flex-fill">
-            <a class="nav-link btn-dark text-center" href="resume.html" id="resume">Resume</a>
-          </li>
-          <li class="nav-item flex-fill">
-            <a class="nav-link text-center btn-dark" href="contact.html">Contact</a>
-          </li>
-            <li class="nav-item flex-fill">
-            <a class="nav-link text-center btn-dark" href="index.html">About Me</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <div class="position-relative" id="top-logo">
+    <img src="Images/code.jpg" alt="pics of code" class="img-fluid code_background">
+    <a href="index.html"><img src="Images/logo.svg" class="position-absolute logo" alt="Matt Harell written in long style font"></a>
+    <h2 class="position-absolute text-white job_titles">Front-end Web-developer, UI/UX Developer, Interactive Designer</h2>
 
   </div>
 
-<h1 class="text-center m-4">Progressive Web App</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light m-0 p-0">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav w-100 d-flex justify-content-between">
+
+            <li class="nav-item flex-fill">
+              <a class="nav-link btn-dark text-center" href="index.html">Portfolio</a>
+            </li>
+
+            <li class="nav-item flex-fill">
+              <a class="nav-link btn-dark text-center" href="resume.html" id="resume">Resume</a>
+            </li>
+
+            <li class="nav-item flex-fill">
+              <a class="nav-link text-center btn-dark" href="contact.html">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+  </nav>
+
+    <h1 class="text-center m-4">Progressive Web App</h1>
 
 <div class="container">
-  <div class="main_image d-flex" style="max-height: 600px;">
-  <img src="Images/coming%20soon.png" class="big_image" alt="...">
+
+  <div class="main_image d-flex flex-lg-row flex-sm-column" style="max-height:80vh;">
+      <img src="Images/herd_start.jpg" class="big_image" alt="blue image wit purple button that says start">
 
 
-    <button type="button" class="btn btn-secondary btn-lg img_overlay" data-toggle="modal" data-target="#pwamain">
-        View
-    </button>
+        <button type="button" class="btn btn-secondary btn-lg img_overlay" data-toggle="modal" data-target="#pwamain">
+            View
+        </button>
 
-    <div class="modal fade" id="pwamain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-        <img src="Images/coming%20soon.png" class="vh-100">
-  </div>
-</div>
+        <div class="modal fade" id="pwamain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <img src="Images/coming%20soon.png" class="vh-100">
+          </div>
+        </div>
 
 
 
     <div class="proc d-flex flex-column">
-    <h3 class="text-center">Process</h3>
 
-    <div class="card d-flex flex-shrink-1">
-    <img src="Images/coming%20soon.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Process 1</h5>
-<!--    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa1">
-  View
-</button>
-    <div class="modal fade" id="pwa1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <h3 class="text-center">Scroll to View Process</h3>
 
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title" id="exampleModalLabel">Process 1 Title</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="Images/coming%20soon.png" class="card-img-top" alt="...">
-          <h5 class="mt-2">Description about the process</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
+                    <div class="card d-flex flex-shrink-1">
+                        <img src="Images/sim_drawing.jpg" class="card-img-top" alt="drawing of Have you Herd? app">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sketches</h5>
+
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa1">
+                                  View
+                                </button>
+
+                                <div class="modal fade" id="pwa1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                                  <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Sketches</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+
+                                      <div class="modal-body">
+                                        <img src="Images/sim_drawing.jpg" class="card-img-top" alt="...">
+                                        <h5 class="mt-2">In the first stage of development, I created drawings to visualize how I wanted app to look and function.</h5>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    <div class="card d-flex flex-shrink-1">
+                            <img src="Images/illustrator-mockups.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Rough Illustrator mockups</h5>
+
+                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa2">
+                                View
+                              </button>
+
+                              <div class="modal fade" id="pwa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h3 class="modal-title" id="exampleModalLabel">Rough Illustrator mockups</h3>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <img src="Images/illustrator-mockups.jpg" class="card-img-top" alt="...">
+                                        <h5 class="mt-2">After, I made Illustrator mock-ups based on those drawings. This is where I considered color and took a more in-depth look at the layout of each screen.</h5>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+
+                                </div>
+                              </div>
+
+
+
+                            </div>
+                        </div>
+
+                    <div class="card d-flex flex-shrink-1">
+                            <img src="Images/final_mockups.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Final Illustrator Mockups</h5>
+                        <!--    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa3">
+                          View
+                        </button>
+                            <div class="modal fade" id="pwa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h3 class="modal-title" id="exampleModalLabel">Final Illustrator Mockups</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <img src="Images/final_mockups.jpg" class="card-img-top" alt="...">
+                                  <h5 class="mt-2">After some feedback from my colleagues, I made some more Illustrator mockups implementing their critiques. I also included some more screens that to be considered in the final version of the app.</h5>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+
+
+                            </div>
+                        </div>
+
+                    <div class="card d-flex flex-shrink-1">
+                              <img src="Images/Persona_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Personas</h5>
+                          <!--    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa4">
+                                View
+                              </button>
+
+                            <div class="modal fade" id="pwa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h3 class="modal-title" id="exampleModalLabel">Personas</h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img src="Images/Persona_1.jpg" class="card-img-top" alt="...">
+                                    <img src="Images/Personas2.jpg" class="card-img-top mt-1" alt="...">
+                                      <h5 class="mt-2">Before I moved on to the next stages of development, I took a step back and made personas of a couple vaccine hesitant parents. I wanted to be sure to focus on the user when continuing through the developmental process.</h5>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+
+                              </div>
+                          </div>
+
+
+
+                              </div>
+                          </div>
+
+                    <div class="card d-flex flex-shrink-1">
+                            <img src="Images/wireframe.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                      <h5 class="card-title">Adobe XD Mockups</h5>
+
+                                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa5">
+                                        View
+                                      </button>
+
+                                    <div class="modal fade" id="pwa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">Adobe XD Mockups</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <img src="Images/wireframe.jpg" class="card-img-top" alt="...">
+                                              <h5 class="mt-2">After my persona considerations and additional feedback from my colleagues, I took my illustrations and created high-fidelity mockup in Adobe XD.</h5>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                  </div>
+
+
+
+                              </div>
+
+                          </div>
+
+                    <div class="card d-flex flex-shrink-1">
+                            <img src="Images/wireframe.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                      <h5 class="card-title">Adobe XD Mockups</h5>
+
+                                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa5">
+                                        View
+                                      </button>
+
+                                    <div class="modal fade" id="pwa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">Adobe XD Mockups</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <img src="Images/wireframe.jpg" class="card-img-top" alt="...">
+                                              <h5 class="mt-2">After my persona considerations and additional feedback from my colleagues, I took my illustrations and created high-fidelity mockup in Adobe XD.</h5>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                  </div>
+
+
+
+                              </div>
+
+                          </div>
+
+                    <div class="card d-flex flex-shrink-1">
+                            <img src="Images/user-report.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                      <h5 class="card-title">User Testing</h5>
+
+                                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa6">
+                                        View
+                                      </button>
+
+                                    <div class="modal fade" id="pwa6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">Adobe XD Mockups</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <div class="container-fluid" style="height:100vh">
+                                              <embed type="application/pdf" src="User Test Report.pdf" width="100%" height="100%">
+                                            </div>
+                                              <h5 class="mt-2">Once I finalized my design in Adobe XD, I did some user testing with the mockup and create a report with my findings.</h5>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                  </div>
+
+
+
+                              </div>
+
+                          </div>
+
+                    <div class="card d-flex flex-shrink-1">
+                            <img src="Images/codeforpwa.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                      <h5 class="card-title">Coding the PWA</h5>
+
+                                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa7">
+                                        View
+                                      </button>
+
+                                    <div class="modal fade" id="pwa7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">Coding the PWA</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <img src="Images/codeforpwa.jpg" class="card-img-top" alt="...">
+                                              <h5 class="mt-2">I took all the data gathered and began coding. Throughout the is process, I made many changes based on feedback I received from my colleagues. The <a href="https://github.com/mharrell8/Have-you-Herd-">GitHub repository</a> will demonstrate how these changes were made and the evolution of my code.</h5>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                  </div>
+
+
+
+                              </div>
+
+                          </div>
+
     </div>
 
   </div>
+
 </div>
 
 
-
-            </div>
-        </div>
-
-    <div class="card d-flex flex-shrink-1">
-    <img src="Images/coming%20soon.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Process 2</h5>
-<!--    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa2">
-  View
-</button>
-    <div class="modal fade" id="pwa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title" id="exampleModalLabel">Process 2 Title</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="Images/coming%20soon.png" class="card-img-top" alt="...">
-          <h5 class="mt-2">Description about the process</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-            </div>
-        </div>
-
-    <div class="card d-flex flex-shrink-1">
-    <img src="Images/coming%20soon.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Process 3</h5>
-<!--    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa3">
-  View
-</button>
-    <div class="modal fade" id="pwa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title" id="exampleModalLabel">Process 3 Title</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="Images/coming%20soon.png" class="card-img-top" alt="...">
-          <h5 class="mt-2">Description about the process</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-            </div>
-        </div>
-
-     <div class="card d-flex flex-shrink-1">
-    <img src="Images/coming%20soon.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Process 4</h5>
-<!--    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pwa4">
-  View
-</button>
-    <div class="modal fade" id="pwa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title" id="exampleModalLabel">Process 4 Title</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="Images/coming%20soon.png" class="card-img-top" alt="...">
-          <h5 class="mt-2">Description about the process</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-            </div>
-        </div>
-
-    </div>
-</div>
-
- </div>
-
-
-   <div class="container des">
+<div class="container">
     <h1 class="text-center m-4">Description</h1>
 
-     <p class="text-justify  mt-3 pb-5 mb-5 detail">Description about the Progressive Web Application</p>
+     <p class="text-justify  mt-3 pb-5 mb-5 detail">
+       I created a progressive web app or PWA (which is an app created using, CSS and JavaScript than can run in a browser or any device) that addresses
+       the problem of the reduction of parents vaccinating their children. The desired outcome for this app is to persuade vaccine hesitant parents that vaccines are not just for their children
+       but are needed to protect other children who can’t get vaccinated. Within the app, I used different storytelling techniques and interactive experiences to build to build an empathic argument
+       that vaccines are needed for herd immunity.
+     </p>
 
-    </div>
+</div>
 
+
+<div class="container" style="height:100vh">
+    <h1 class="text-center m-4">Project Documentation</h1>
+
+     <embed type="application/pdf" src="Documents/Have You Herd Project Documentation.pdf" width="100%" height="100%">
+
+</div>
 
 
 

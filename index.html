@@ -88,10 +88,10 @@
 
 
 
-  <div class="containter position-relative">
+  <div class="position-relative" id="top-logo">
     <img src="Images/code.jpg" alt="pics of code" class="img-fluid">
     <a href="index.html"><img src="Images/logo.svg" class="position-absolute logo" alt="Matt Harell written in long style font"></a>
-
+    <h2 class="position-absolute text-white job_titles">Front-end Web-developer, UI/UX Developer, Interactive Designer</h2>
 
   </div>
 
@@ -124,84 +124,79 @@
   <h1 class="text-center m-4">Portfolio</h1>
 
   <!-- the portfolio items cont -->
-  <div class="container-fluid d-flex flex-lg-row flex-sm-column align-items-lg-stretch justify-content-sm-center">
+  <div class="container-lg d-flex flex-lg-row flex-sm-column align-items-lg-stretch justify-content-sm-center">
 
 
 
         <div class="d-flex flex-column side_content order-sm-2 order-lg-1 align-self-sm-center" id="left_content">
 
-          <span class="hover_cont mb-1 flex-fill port_items">
-            <a href="javascript.html">
-              <div class="position-relative d-flex">
-                <h2 class="position-absolute port_items_titles">Interactive Animation</h2>
-              </div>
-              <img src="Images/switch.png" class="crop mouseover_img port_images" alt="...">
-            </a>
-            <div class="mid_mouseover">
-                <a href="javascript.html" class="hovertext"></a>
-            </div>
-          </span>
 
-            <span class="hover_cont mt-1 flex-fill port_items">
-              <a href="chromeext.html">
-                <div class="position-relative d-flex">
+          <a href="javascript.html" class="m-1">
+              <div class="position-relative port_images">
+                <h2 class="position-absolute port_items_titles">Interactive Animation</h2>
+
+              <img src="Images/switch.png" class="crop" alt="...">
+
+
+            </div>
+          </a>
+
+
+
+              <a href="chromeext.html" class="m-1">
+                <div class="position-relative port_images">
                   <h2 class="position-absolute port_items_titles">Chrome Extensions</h2>
+
+                  <img src="Images/coming soon.png" class="crop" alt="...">
                 </div>
-                <img src="Images/coming soon.png" class="crop mouseover_img port_images" alt="...">
-              </a>
-              <div class="mid_mouseover">
-                  <a href="chromeext.html" class="hovertext"></a>
-              </div>
-            </span>
+            </a>
+
 
 
         </div>
 
 
-        <div class="d-flex flex-column port_items order-lg-2 order-sm-1 align-self-sm-center" id="pwa_port_card">
 
 
 
-          <span class="hover_cont flex-flill">
+        <div class="d-flex flex-column port_items order-lg-2 order-sm-1 align-self-sm-center justify-content-sm-center" id="pwa_port_card">
 
 
-            <a href="PWA.html" class="">
-              <div class="position-relative d-flex">
-                <h2 class="position-absolute port_items_titles">Progessive Web App</h2>
-              </div>
-              <img src="Images/herdicon.jpg" class=" port_images mouseover_img crop_two" alt="...">
-            </a>
-            <div class="mid_mouseover">
-                <a href="PWA.html" class="hovertext"></a>
+              <a href="PWA.html" class="">
+                <div class="position-relative port_images">
+                  <h2 class="port_items_titles position-absolute">Progessive Web App</h2>
+                  <img src="Images/herdicon.jpg" class=" crop_two " alt="...">
+
+                </div>
+
+              </a>
+
+
+
             </div>
-          </span>
-
-          </div>
-
 
         <div class="d-flex flex-column  port_items side_content order-sm-3 order-lg-3 align-self-sm-center" id="right_content">
 
-          <span class="hover_cont mb-1 flex-fill port_items">
-            <a href="bootstrap.html">
-              <div class="position-relative d-flex">
-                <h2 class="position-absolute port_items_titles" id="bootstrap_title">Bootstrap</h2>
-              </div>
-              <img src="Images/bootstrap.png" class="crop mouseover_img port_images" alt="..." id="bootstrap_image">
-            </a>
-            <div class="mid_mouseover">
-                <a href="bootstrap.html" class="hovertext"></a>
+
+            <a href="bootstrap.html" class="m-1">
+              <div class="position-relative port_images">
+                <h2 class="position-absolute port_items_titles">Bootstrap</h2>
+                <img src="Images/bootstrap.png" class="crop" alt="...">
+
             </div>
-          </span>
 
-          <span class="hover_cont mt-1 flex-fill port_items">
-            <a href="textlayout.html">
-              <div class="position-relative d-flex">
+          </a>
+
+
+
+            <a href="textlayout.html" class="m-1">
+              <div class="position-relative port_images">
                 <h2 class="position-absolute port_items_titles">Text Layout</h2>
+                <img src="Images/Matt H_infographic final.png" class="crop" alt="...">
               </div>
-              <img src="Images/Matt H_infographic final.png" class="crop mouseover_img port_images" alt="...">
-            </a>
+          </a>
 
-          </span>
+
 
 
 
@@ -214,9 +209,10 @@
 
 
 
-  </div>
 
-  <div class="container" style="padding-top:5rem; padding-bottom:5rem;" id="email">
+
+  <div class="container" style="padding-top:1rem; padding-bottom:5rem;" id="email">
+    <h2 class="text-center">Contact Me</h2>
     <form id="contact-form" class="d-flex flex-column">
           <input type="hidden" name="contact_number">
           <label>Name</label>
@@ -225,7 +221,7 @@
           <input type="email" name="user_email" style="max-width:30%">
           <label>Message</label>
           <textarea name="message" rows="5" cols="50"></textarea>
-          <button class="btn btn-primary pb-4 pt-4 mt-3 align-self-center" type="submit" value="Send" style="width:30%;font-size:1.5rem;">Send</button>
+          <button class="btn btn-secondary pb-4 pt-4 mt-3 align-self-center mt-1" type="submit" value="Send" style="width:30%;font-size:1.5rem;">Send</button>
       </form>
 
     <script  src="main.js" type="text/javascript"></script>
